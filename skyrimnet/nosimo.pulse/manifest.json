@@ -2,7 +2,7 @@
   "type": "bundle",
   "id": "nosimo.pulse",
   "author": "nosimo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "min_skyrimnet_version": "0.28.0",
   "title": "Pulse",
   "tagline": "Timers for your own triggers: fixed and random mod events every few seconds",

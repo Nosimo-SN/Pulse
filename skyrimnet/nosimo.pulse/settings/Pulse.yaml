@@ -1,6 +1,6 @@
 plugin:
   name: "Pulse"
-  version: "1.0.0"
+  version: "1.0.1"
   description: >-
     Timers for your own SkyrimNet triggers. Each timer you switch on sends a mod event when it fires:
     Pulse_Fixed1 to Pulse_Fixed4 every set number of seconds, Pulse_Random1 to Pulse_Random4 after a new

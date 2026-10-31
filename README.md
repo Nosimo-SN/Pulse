@@ -82,8 +82,8 @@ CMake + vcpkg + Ninja with VS 2022, against CommonLibSSE-NG (alandtse `ng`):
 cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=RelWithDebInfo ^
   -DCMAKE_TOOLCHAIN_FILE=<vcpkg>/scripts/buildsystems/vcpkg.cmake -DCOMMONLIB_DIR=<commonlibsse-ng>
 cmake --build build
-python tools/gen_settings.py . 1.0.0
-python tools/package.py . 1.0.0
+python tools/gen_settings.py . 1.0.1
+python tools/package.py . 1.0.1
 ```
 
 ## License
