@@ -1,0 +1,13 @@
+{
+  "type": "bundle",
+  "id": "nosimo.pulse",
+  "author": "nosimo",
+  "version": "1.0.0",
+  "min_skyrimnet_version": "0.28.0",
+  "title": "Pulse",
+  "tagline": "Timers for your own triggers: fixed and random mod events every few seconds",
+  "description": "SkyrimNet triggers react to events, but there is no event for 'every so often'. Pulse adds one. Its SKSE plugin runs four fixed timers (every 1 to 1200 seconds) and four random timers (a new random delay between a min and a max after each firing), each switched on from this plugin's Settings page. Every firing sends an SKSE mod event, Pulse_Fixed1 to Pulse_Fixed4 or Pulse_Random1 to Pulse_Random4, that a trigger matches with event type mod_event and event_name; num_arg carries the seconds counted. Pulse itself posts nothing to SkyrimNet, and time counts only while you are playing, not in menus or loading screens.",
+  "tags": ["triggers", "utility", "settings"],
+  "nsfw": false,
+  "mods": []
+}
